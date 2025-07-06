@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कृष्ण की 100+ नैतिक कहानियाँ | हिंदी में पढ़ें और सुनें</title>
+    <meta name="description" content="भगवान कृष्ण की 100 से अधिक नैतिक कहानियाँ हिंदी में पढ़ें और सुनें। बच्चों और बड़ों के लिए प्रेरणादायक कहानियों का संग्रह।">
+    <meta name="keywords" content="कृष्ण कहानियाँ, नैतिक कहानियाँ, हिंदी कहानियाँ, बाल कहानियाँ, कृष्ण लीला, मोरल स्टोरी, कृष्ण भक्ति">
+    <meta name="author" content="कृष्ण कहानी संग्रह">
+    <meta property="og:title" content="कृष्ण की 100+ नैतिक कहानियाँ">
+    <meta property="og:description" content="भगवान कृष्ण की प्रेरणादायक कहानियाँ हिंदी में">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/krishna-kahaniyan">
+    <meta property="og:image" content="https://example.com/krishna-stories.jpg">
+    <link rel="canonical" href="https://example.com/krishna-kahaniyan">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "कृष्ण की नैतिक कहानियाँ",
+      "description": "भगवान कृष्ण की 100 से अधिक नैतिक कहानियों का संग्रह",
+      "publisher": {
+        "@type": "Organization",
+        "name": "कृष्ण कहानी संग्रह"
+      }
+    }
+    </script>
+    
+    <style>
+        :root {
+            --primary-color: #8e44ad;
+            --secondary-color: #9b59b6;
+            --accent-color: #e74c3c;
+            --text-color: #2c3e50;
+            --light-color: #f5f6fa;
+            --card-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Nirmala UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: var(--text-color);
+            padding: 20px;
+            direction: ltr;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px 0;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+        }
+
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .story-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .story-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .card-category {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .story-detail {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: 100;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .detail-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .back-button:hover {
+            background: var(--accent-color);
+        }
+
+        .detail-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 40px 0 20px;
+        }
+
+        .detail-title {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .detail-description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        .voice-button {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+
+        .voice-button:hover {
+            transform: scale(1.05);
+        }
+
+        .voice-button i {
+            font-size: 1.2rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        /* Ads Sections */
+        .ad-container {
+            width: 100%;
+            margin: 30px 0;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px dashed #ccc;
+        }
+
+        .ad-label {
+            font-size: 0.8rem;
+            color: #777;
+            margin-bottom: 5px;
+        }
+
+        /* Breadcrumb Navigation */
+        .breadcrumb {
+            padding: 10px 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .stories-grid {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+                gap: 15px;
+            }
+            
+            .detail-content {
+                padding-top: 50px;
+            }
+            
+            .back-button {
+                top: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stories-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb">
+            <a href="/">होम</a> &gt; <a href="/stories">कहानियाँ</a> &gt; कृष्ण की नैतिक कहानियाँ
+        </div>
+
+        <!-- Top Ad Banner -->
+        <div class="ad-container">
+            <div class="ad-label">विज्ञापन</div>
+            <!-- Replace with your actual ad code -->
+            <div id="top-banner-ad">
+                <img src="https://via.placeholder.com/728x90?text=Ad+Banner+728x90" alt="Advertisement" style="max-width:100%;height:auto;">
+            </div>
+        </div>
+
+        <header>
+            <h1>कृष्ण की नैतिक कहानियाँ</h1>
+            <p class="subtitle">किसी भी कहानी पर क्लिक करें पढ़ने और सुनने के लिए</p>
+        </header>
+
+        <!-- Mid Content Ad -->
+        <div class="ad-container">
+            <div class="ad-label">विज्ञापन</div>
+            <!-- Replace with your actual ad code -->
+            <div id="mid-content-ad">
+                <img src="https://via.placeholder.com/468x60?text=Ad+Banner+468x60" alt="Advertisement" style="max-width:100%;height:auto;">
+            </div>
+        </div>
+
+        <div class="stories-grid" id="storiesGrid">
+            <!-- Story cards will be dynamically inserted here -->
+            <div class="loading">कहानियाँ लोड हो रही हैं...</div>
+        </div>
+
+        <!-- Bottom Ad -->
+        <div class="ad-container">
+            <div class="ad-label">विज्ञापन</div>
+            <!-- Replace with your actual ad code -->
+            <div id="bottom-ad">
+                <img src="https://via.placeholder.com/728x90?text=Ad+Banner+728x90" alt="Advertisement" style="max-width:100%;height:auto;">
+            </div>
+        </div>
+
+        <div class="story-detail" id="storyDetail">
+            <div class="detail-content">
+                <button class="back-button" id="backButton">
+                    <i class="fas fa-arrow-left"></i> सभी कहानियाँ देखें
+                </button>
+                <img class="detail-image" id="detailImage" src="" alt="Story Image">
+                <h2 class="detail-title" id="detailTitle"></h2>
+                <p class="detail-description" id="detailDescription"></p>
+                <button class="voice-button" id="voiceButton">
+                    <i class="fas fa-volume-up"></i> कहानी सुनें (हिंदी)
+                </button>
+                
+                <!-- In-Content Ad -->
+                <div class="ad-container" style="margin: 40px 0;">
+                    <div class="ad-label">विज्ञापन</div>
+                    <!-- Replace with your actual ad code -->
+                    <div id="in-content-ad">
+                        <img src="https://via.placeholder.com/336x280?text=Ad+336x280" alt="Advertisement" style="max-width:100%;height:auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2023 कृष्ण कहानी संग्रह. सर्वाधिकार सुरक्षित.</p>
+            <p><a href="/privacy">गोपनीयता नीति</a> | <a href="/terms">उपयोग की शर्तें</a> | <a href="/contact">संपर्क करें</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // कृष्ण की 100 नैतिक कहानियाँ
+        const stories = [];
+        const categories = ["प्रेम", "सत्य", "ईमानदारी", "दया", "कर्म", "धर्म", "ज्ञान", "भक्ति"];
+        
+        // 100 कहानियाँ जनरेट करें
+        for (let i = 1; i <= 100; i++) {
+            const category = categories[Math.floor(Math.random() * categories.length)];
+            stories.push({
+                id: i,
+                title: `कहानी ${i}: कृष्ण और ${category} का पाठ`,
+                category: category,
+                image: `https://source.unsplash.com/random/400x300/?krishna,hindu,${category}&sig=${i}`,
+                description: `यह कहानी ${i} है जो भगवान कृष्ण के जीवन से जुड़ी एक नैतिक शिक्षा देती है। इस कहानी में ${category} का महत्व दिखाया गया है। कृष्ण ने अपने जीवन में अनेक उदाहरण प्रस्तुत किए जो हमें ${category} का पाठ सिखाते हैं। इस कहानी में आप जानेंगे कि कैसे कृष्ण ने ${category} के माध्यम से अपने भक्तों को जीवन का सही मार्ग दिखाया। यह कहानी बच्चों और बड़ों सभी के लिए प्रेरणादायक है।`
+            });
+        }
+
+        // DOM elements
+        const storiesGrid = document.getElementById('storiesGrid');
+        const storyDetail = document.getElementById('storyDetail');
+        const detailImage = document.getElementById('detailImage');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailDescription = document.getElementById('detailDescription');
+        const voiceButton = document.getElementById('voiceButton');
+        const backButton = document.getElementById('backButton');
+
+        // Speech synthesis
+        let speech = null;
+
+        // Initialize the app
+        function init() {
+            renderStoryCards();
+            setupEventListeners();
+            loadAds(); // Load ads after content
+        }
+
+        // Render all story cards
+        function renderStoryCards() {
+            storiesGrid.innerHTML = '';
+            
+            stories.forEach(story => {
+                const card = document.createElement('div');
+                card.className = 'story-card';
+                card.dataset.id = story.id;
+                
+                card.innerHTML = `
+                    <img class="card-image" src="${story.image}" alt="${story.title}" loading="lazy">
+                    <div class="card-content">
+                        <span class="card-category">${story.category}</span>
+                        <h3 class="card-title">${story.title}</h3>
+                        <p class="card-description">${story.description.substring(0, 100)}...</p>
+                    </div>
+                `;
+                
+                storiesGrid.appendChild(card);
+            });
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Story card click
+            storiesGrid.addEventListener('click', (e) => {
+                const card = e.target.closest('.story-card');
+                if (card) {
+                    const storyId = parseInt(card.dataset.id);
+                    showStoryDetail(storyId);
+                    trackStoryView(storyId); // Track story view
+                }
+            });
+
+            // Voice button click
+            voiceButton.addEventListener('click', toggleHindiSpeech);
+
+            // Back button click
+            backButton.addEventListener('click', () => {
+                storyDetail.style.display = 'none';
+                if (speech) {
+                    window.speechSynthesis.cancel();
+                    speech = null;
+                    updateVoiceButton(false);
+                }
+            });
+        }
+
+        // Show story detail view
+        function showStoryDetail(storyId) {
+            const story = stories.find(s => s.id === storyId);
+            if (!story) return;
+
+            detailImage.src = story.image;
+            detailImage.alt = story.title;
+            detailTitle.textContent = story.title;
+            detailDescription.textContent = story.description;
+
+            storyDetail.style.display = 'block';
+            window.scrollTo(0, 0);
+            
+            // Load ad in detail view
+            loadDetailAd();
+        }
+
+        // Toggle Hindi speech synthesis
+        function toggleHindiSpeech() {
+            if (speech) {
+                window.speechSynthesis.cancel();
+                speech = null;
+                updateVoiceButton(false);
+            } else {
+                // Get Hindi voice if available
+                const voices = window.speechSynthesis.getVoices();
+                let hindiVoice = voices.find(voice => voice.lang.includes('hi') || voice.name.includes('Hindi'));
+                
+                // If no Hindi voice, try Indian English as fallback
+                if (!hindiVoice) {
+                    hindiVoice = voices.find(voice => voice.lang.includes('en-IN'));
+                }
+                
+                const utterance = new SpeechSynthesisUtterance();
+                utterance.text = `${detailTitle.textContent}. ${detailDescription.textContent}`;
+                
+                if (hindiVoice) {
+                    utterance.voice = hindiVoice;
+                    utterance.lang = 'hi-IN';
+                }
+                
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+                utterance.volume = 1;
+                
+                utterance.onend = () => {
+                    speech = null;
+                    updateVoiceButton(false);
+                };
+                
+                window.speechSynthesis.speak(utterance);
+                speech = utterance;
+                updateVoiceButton(true);
+            }
+        }
+
+        // Update voice button appearance
+        function updateVoiceButton(isSpeaking) {
+            const icon = voiceButton.querySelector('i');
+            if (isSpeaking) {
+                voiceButton.innerHTML = '<i class="fas fa-stop"></i> सुनना बंद करें';
+                voiceButton.style.background = '#ff4757';
+            } else {
+                voiceButton.innerHTML = '<i class="fas fa-volume-up"></i> कहानी सुनें (हिंदी)';
+                voiceButton.style.background = 'var(--accent-color)';
+            }
+        }
+
+        // Load ads (replace with your actual ad code)
+        function loadAds() {
+            // This is a placeholder - replace with actual ad code like Google AdSense
+            console.log('Loading advertisements...');
+            
+            // Example Google AdSense code (replace with your own):
+            // const script = document.createElement('script');
+            // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX';
+            // script.async = true;
+            // script.crossOrigin = 'anonymous';
+            // document.head.appendChild(script);
+        }
+
+        function loadDetailAd() {
+            // Load ad specifically for detail view
+            console.log('Loading detail view advertisement...');
+        }
+
+        // Track story views (for analytics)
+        function trackStoryView(storyId) {
+            // Replace with your analytics code
+            console.log(`Story ${storyId} viewed`);
+            
+            // Example: Google Analytics event tracking
+            // if (window.gtag) {
+            //     gtag('event', 'story_view', {
+            //         'story_id': storyId,
+            //         'story_title': stories.find(s => s.id === storyId).title
+            //     });
+            // }
+        }
+
+        // Load voices when they become available
+        window.speechSynthesis.onvoiceschanged = function() {
+            // Voices are now loaded
+        };
+
+        // Initialize the app when DOM is loaded
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+    
+    <!-- Analytics Code (example) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</body>
+</html>
